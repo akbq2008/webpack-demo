@@ -8,11 +8,7 @@ module.exports = {
     },
     devServer: {
         noInfo: true,
-        // hotOnly: true,
-        // contentBase: './dist',
         quiet: true,
-        host: "192.168.2.82",
-        port: 8000,
         overlay: {
             errors: true,
             warnings: false
